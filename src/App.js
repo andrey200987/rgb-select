@@ -20,6 +20,7 @@ function App() {
   const colorHex = ('#' + redHex + greenHex + blueHex + alphaHex).toUpperCase();
   console.log(alphaHex);
   document.body.style.background = colorHex;
+  const onetwo = 12;
 
   return (
     <div className="App">
